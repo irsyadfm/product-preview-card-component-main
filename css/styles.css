@@ -1,0 +1,127 @@
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color:  hsl(30, 38%, 92%);
+  font-size: 14px;
+  color: hsl(228, 12%, 48%);
+  min-height: 100vh;
+  font-weight: 700;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section{
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+}
+
+img{
+  flex: 1 0 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  object-fit: cover;
+}
+
+h1{
+  color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+button{
+  display: flex;
+  font-family: 'Montserrat', serif;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 60px;
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  justify-content: space-evenly;
+  font-weight: 700;
+}
+
+svg{
+  margin-right: 10px;
+
+}
+
+.description{
+  padding: 35px;
+}
+
+.kategori{
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.harga{
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.harga1{
+  font-family:'Fraunces', serif;
+  font-size: 2.5em;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  margin-right: 20px;
+}
+
+.harga2{
+  text-decoration: line-through;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 600px) {
+
+    section{
+      flex-direction: column;
+      width: 100%;
+      margin: 15px;
+    }
+
+    img{
+      border-radius: 20px 20px 0 0;
+    }
+
+    .description{
+      padding: 40px;
+      font-weight: 700;
+    }
+
+    .harga{
+      margin: 15px 0;
+    }
+
+    button{
+      display: ;
+      border-radius: 5px;
+      border: none;
+      background-color: hsl(158, 36%, 37%);
+      padding: 15px 60px;
+      color: hsl(0, 0%, 100%);
+      width: 100%;
+      justify-content: center;
+    }
+}
